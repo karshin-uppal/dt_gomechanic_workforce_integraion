@@ -1,0 +1,205 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-26 15:57:04.423710",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "discount_section",
+  "garage_name",
+  "column_break_asipj",
+  "garage_id",
+  "bb_coupon",
+  "b_c_garage_share",
+  "column_break_ty2ny",
+  "b_c_gm_share",
+  "bb_coupon__affiliate",
+  "b_c_a_garage_share",
+  "column_break_ooftt",
+  "b_c_a_gm_share",
+  "bb_coupon_free_text",
+  "b_c_f_t_garage_share",
+  "column_break_wyjdj",
+  "b_c_f_t_gm_share",
+  "bb_flat__discount_section",
+  "b_f_d_garage_share",
+  "column_break_fchpq",
+  "b_f_d_gm_share",
+  "bb_itemised_discount_section",
+  "b_i_d_garage_share",
+  "column_break_dkrbt",
+  "b_i_d_gm_share",
+  "bb_miles_discount_section",
+  "b_m_d_garage_share",
+  "column_break_xpdtd",
+  "b_m_d_gm_share",
+  "goapp_money_discount_bearing_rate_section"
+ ],
+ "fields": [
+  {
+   "fieldname": "discount_section",
+   "fieldtype": "Section Break",
+   "label": "Discount"
+  },
+  {
+   "fieldname": "garage_name",
+   "fieldtype": "Data",
+   "label": "Garage Name"
+  },
+  {
+   "fieldname": "column_break_asipj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "garage_id",
+   "fieldtype": "Int",
+   "label": "Garage ID"
+  },
+  {
+   "fieldname": "bb_coupon",
+   "fieldtype": "Section Break",
+   "label": "bb_Coupon"
+  },
+  {
+   "fieldname": "b_c_garage_share",
+   "fieldtype": "Percent",
+   "label": "Garage %"
+  },
+  {
+   "fieldname": "column_break_ty2ny",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b_c_gm_share",
+   "fieldtype": "Percent",
+   "label": "Go Mechanic %"
+  },
+  {
+   "fieldname": "bb_coupon__affiliate",
+   "fieldtype": "Section Break",
+   "label": "bb_Coupon _Affiliate"
+  },
+  {
+   "fieldname": "b_c_a_garage_share",
+   "fieldtype": "Percent",
+   "label": "Garage %"
+  },
+  {
+   "fieldname": "column_break_ooftt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b_c_a_gm_share",
+   "fieldtype": "Percent",
+   "label": "Go Mechanic %"
+  },
+  {
+   "fieldname": "bb_coupon_free_text",
+   "fieldtype": "Section Break",
+   "label": "bb_Coupon_Free_Text"
+  },
+  {
+   "fieldname": "b_c_f_t_garage_share",
+   "fieldtype": "Percent",
+   "label": "Garage %"
+  },
+  {
+   "fieldname": "column_break_wyjdj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b_c_f_t_gm_share",
+   "fieldtype": "Percent",
+   "label": "Go Mechanic %"
+  },
+  {
+   "fieldname": "bb_flat__discount_section",
+   "fieldtype": "Section Break",
+   "label": "bb_Flat_ Discount"
+  },
+  {
+   "fieldname": "b_f_d_garage_share",
+   "fieldtype": "Percent",
+   "label": "Garage %"
+  },
+  {
+   "fieldname": "column_break_fchpq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b_f_d_gm_share",
+   "fieldtype": "Percent",
+   "label": "Go Mechanic %"
+  },
+  {
+   "fieldname": "bb_itemised_discount_section",
+   "fieldtype": "Section Break",
+   "label": "bb_Itemised_Discount"
+  },
+  {
+   "fieldname": "b_i_d_garage_share",
+   "fieldtype": "Percent",
+   "label": "Garage %"
+  },
+  {
+   "fieldname": "column_break_dkrbt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b_i_d_gm_share",
+   "fieldtype": "Percent",
+   "label": "Go Mechanic %"
+  },
+  {
+   "fieldname": "bb_miles_discount_section",
+   "fieldtype": "Section Break",
+   "label": "bb_Miles_Discount"
+  },
+  {
+   "fieldname": "b_m_d_garage_share",
+   "fieldtype": "Percent",
+   "label": "Garage %"
+  },
+  {
+   "fieldname": "column_break_xpdtd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "b_m_d_gm_share",
+   "fieldtype": "Percent",
+   "label": "Go Mechanic %"
+  },
+  {
+   "fieldname": "goapp_money_discount_bearing_rate_section",
+   "fieldtype": "Section Break",
+   "label": "Goapp_Money_Discount_Bearing_Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-26 16:23:33.916836",
+ "modified_by": "Administrator",
+ "module": "DT GoMechanic Workforce Integration",
+ "name": "Commission and Discount Break-Up",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
