@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dt_gomechanic_workforce_integraion *.css
+recursive-include dt_gomechanic_workforce_integraion *.csv
+recursive-include dt_gomechanic_workforce_integraion *.html
+recursive-include dt_gomechanic_workforce_integraion *.ico
+recursive-include dt_gomechanic_workforce_integraion *.js
+recursive-include dt_gomechanic_workforce_integraion *.json
+recursive-include dt_gomechanic_workforce_integraion *.md
+recursive-include dt_gomechanic_workforce_integraion *.png
+recursive-include dt_gomechanic_workforce_integraion *.py
+recursive-include dt_gomechanic_workforce_integraion *.svg
+recursive-include dt_gomechanic_workforce_integraion *.txt
+recursive-exclude dt_gomechanic_workforce_integraion *.pyc
