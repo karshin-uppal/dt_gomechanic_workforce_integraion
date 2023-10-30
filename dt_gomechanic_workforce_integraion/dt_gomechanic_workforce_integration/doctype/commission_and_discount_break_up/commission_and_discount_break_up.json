@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{garage_id}",
  "creation": "2023-10-26 15:57:04.423710",
  "default_view": "List",
  "doctype": "DocType",
@@ -35,7 +36,34 @@
   "b_m_d_garage_share",
   "column_break_xpdtd",
   "b_m_d_gm_share",
-  "goapp_money_discount_bearing_rate_section"
+  "section_break_w3c3r",
+  "discount_bearing_rate_tab",
+  "d_goapp_money_discount_bearing_rate",
+  "insurance_take_rate_and_discount_tab",
+  "insurance_bb_coupon_section",
+  "i_b_c_garage_share",
+  "column_break_c1rzf",
+  "i_b_c_gm_share",
+  "insurance_bb_flat_section",
+  "i_b_f_garage_share",
+  "column_break_u8eev",
+  "i_b_f_gm_share",
+  "take_rates_section",
+  "goapp_money_discount_bearing_rate",
+  "labour",
+  "column_break_tz6kp",
+  "material",
+  "overall",
+  "commission_section",
+  "commission_overall",
+  "commission_material",
+  "column_break_8fuaa",
+  "commission_labour",
+  "commission_package",
+  "b2b_section",
+  "luxury",
+  "column_break_veaxj",
+  "kifayat"
  ],
  "fields": [
   {
@@ -55,7 +83,8 @@
   {
    "fieldname": "garage_id",
    "fieldtype": "Int",
-   "label": "Garage ID"
+   "label": "Garage ID",
+   "precision": "2"
   },
   {
    "fieldname": "bb_coupon",
@@ -65,7 +94,8 @@
   {
    "fieldname": "b_c_garage_share",
    "fieldtype": "Percent",
-   "label": "Garage %"
+   "label": "Garage %",
+   "precision": "2"
   },
   {
    "fieldname": "column_break_ty2ny",
@@ -74,7 +104,8 @@
   {
    "fieldname": "b_c_gm_share",
    "fieldtype": "Percent",
-   "label": "Go Mechanic %"
+   "label": "Go Mechanic %",
+   "precision": "2"
   },
   {
    "fieldname": "bb_coupon__affiliate",
@@ -84,7 +115,8 @@
   {
    "fieldname": "b_c_a_garage_share",
    "fieldtype": "Percent",
-   "label": "Garage %"
+   "label": "Garage %",
+   "precision": "2"
   },
   {
    "fieldname": "column_break_ooftt",
@@ -93,7 +125,8 @@
   {
    "fieldname": "b_c_a_gm_share",
    "fieldtype": "Percent",
-   "label": "Go Mechanic %"
+   "label": "Go Mechanic %",
+   "precision": "2"
   },
   {
    "fieldname": "bb_coupon_free_text",
@@ -103,7 +136,8 @@
   {
    "fieldname": "b_c_f_t_garage_share",
    "fieldtype": "Percent",
-   "label": "Garage %"
+   "label": "Garage %",
+   "precision": "2"
   },
   {
    "fieldname": "column_break_wyjdj",
@@ -112,7 +146,8 @@
   {
    "fieldname": "b_c_f_t_gm_share",
    "fieldtype": "Percent",
-   "label": "Go Mechanic %"
+   "label": "Go Mechanic %",
+   "precision": "2"
   },
   {
    "fieldname": "bb_flat__discount_section",
@@ -122,7 +157,8 @@
   {
    "fieldname": "b_f_d_garage_share",
    "fieldtype": "Percent",
-   "label": "Garage %"
+   "label": "Garage %",
+   "precision": "2"
   },
   {
    "fieldname": "column_break_fchpq",
@@ -131,7 +167,8 @@
   {
    "fieldname": "b_f_d_gm_share",
    "fieldtype": "Percent",
-   "label": "Go Mechanic %"
+   "label": "Go Mechanic %",
+   "precision": "2"
   },
   {
    "fieldname": "bb_itemised_discount_section",
@@ -141,7 +178,8 @@
   {
    "fieldname": "b_i_d_garage_share",
    "fieldtype": "Percent",
-   "label": "Garage %"
+   "label": "Garage %",
+   "precision": "2"
   },
   {
    "fieldname": "column_break_dkrbt",
@@ -150,7 +188,8 @@
   {
    "fieldname": "b_i_d_gm_share",
    "fieldtype": "Percent",
-   "label": "Go Mechanic %"
+   "label": "Go Mechanic %",
+   "precision": "2"
   },
   {
    "fieldname": "bb_miles_discount_section",
@@ -160,7 +199,8 @@
   {
    "fieldname": "b_m_d_garage_share",
    "fieldtype": "Percent",
-   "label": "Garage %"
+   "label": "Garage %",
+   "precision": "2"
   },
   {
    "fieldname": "column_break_xpdtd",
@@ -169,20 +209,156 @@
   {
    "fieldname": "b_m_d_gm_share",
    "fieldtype": "Percent",
-   "label": "Go Mechanic %"
+   "label": "Go Mechanic %",
+   "precision": "2"
   },
   {
-   "fieldname": "goapp_money_discount_bearing_rate_section",
+   "fieldname": "goapp_money_discount_bearing_rate",
+   "fieldtype": "Int",
+   "label": "Goapp_Money_Discount_Bearing_rate"
+  },
+  {
+   "fieldname": "section_break_w3c3r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "discount_bearing_rate_tab",
+   "fieldtype": "Tab Break",
+   "label": "Discount_Bearing_Rate"
+  },
+  {
+   "fieldname": "insurance_take_rate_and_discount_tab",
+   "fieldtype": "Tab Break",
+   "label": "Insurance take rate and discount "
+  },
+  {
+   "fieldname": "insurance_bb_coupon_section",
    "fieldtype": "Section Break",
+   "label": "Insurance_bb_Coupon"
+  },
+  {
+   "fieldname": "i_b_c_garage_share",
+   "fieldtype": "Percent",
+   "label": "Garage %",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_c1rzf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "i_b_c_gm_share",
+   "fieldtype": "Percent",
+   "label": "Go Mechanic %",
+   "precision": "2"
+  },
+  {
+   "fieldname": "d_goapp_money_discount_bearing_rate",
+   "fieldtype": "Int",
    "label": "Goapp_Money_Discount_Bearing_Rate"
+  },
+  {
+   "fieldname": "insurance_bb_flat_section",
+   "fieldtype": "Section Break",
+   "label": "Insurance_bb_Flat"
+  },
+  {
+   "fieldname": "i_b_f_garage_share",
+   "fieldtype": "Percent",
+   "label": "Garage %",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_u8eev",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "i_b_f_gm_share",
+   "fieldtype": "Percent",
+   "label": "Go Mechanic %",
+   "precision": "2"
+  },
+  {
+   "fieldname": "take_rates_section",
+   "fieldtype": "Section Break",
+   "label": "Take Rates"
+  },
+  {
+   "fieldname": "labour",
+   "fieldtype": "Int",
+   "label": "Labour"
+  },
+  {
+   "fieldname": "column_break_tz6kp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Int",
+   "label": "Material"
+  },
+  {
+   "fieldname": "overall",
+   "fieldtype": "Float",
+   "label": "Overall",
+   "precision": "1"
+  },
+  {
+   "fieldname": "commission_section",
+   "fieldtype": "Tab Break",
+   "label": "Commission"
+  },
+  {
+   "fieldname": "commission_overall",
+   "fieldtype": "Int",
+   "label": "Overall "
+  },
+  {
+   "fieldname": "commission_material",
+   "fieldtype": "Int",
+   "label": "Material"
+  },
+  {
+   "fieldname": "commission_labour",
+   "fieldtype": "Int",
+   "label": "Labour"
+  },
+  {
+   "fieldname": "commission_package",
+   "fieldtype": "Int",
+   "label": "Package"
+  },
+  {
+   "fieldname": "b2b_section",
+   "fieldtype": "Section Break",
+   "label": "B2B"
+  },
+  {
+   "fieldname": "luxury",
+   "fieldtype": "Int",
+   "label": "Luxury"
+  },
+  {
+   "fieldname": "column_break_veaxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kifayat",
+   "fieldtype": "Int",
+   "label": "Kifayat"
+  },
+  {
+   "fieldname": "column_break_8fuaa",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-26 16:23:33.916836",
+ "modified": "2023-10-27 13:16:08.707289",
  "modified_by": "Administrator",
  "module": "DT GoMechanic Workforce Integration",
  "name": "Commission and Discount Break-Up",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -201,5 +377,7 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }
